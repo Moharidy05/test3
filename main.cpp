@@ -18,6 +18,9 @@ float sum(float a, float b) {
   return a + b;
 }
 
+float sum(float a) {
+  return a;
+}
 int main() {
   int a, b, c;
   cin >> a, b, c;
