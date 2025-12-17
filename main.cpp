@@ -11,6 +11,10 @@ int sum(int a, int b) {
   return a + b;
 }
 
+int sum(int a) {
+  return a;
+}
+
 int main() {
   int a, b, c;
   cin >> a, b, c;
