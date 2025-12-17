@@ -14,6 +14,9 @@ int sum(int a, int b) {
 int sum(int a) {
   return a;
 }
+float sum(float a, float b) {
+  return a + b;
+}
 
 int main() {
   int a, b, c;
